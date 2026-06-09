@@ -1,0 +1,89 @@
+{
+  "brand": {
+    "name": "Terra & Clay",
+    "tagline": "Handcrafted with Earth, Made for Life",
+    "store_type": "handmade ceramics and sustainable homewares",
+    "platform": "Shopify",
+    "founded": 2018,
+    "mission": "To bring the beauty of slow, intentional craftsmanship into everyday moments"
+  },
+
+  "voice": {
+    "primary_traits": ["warm", "artisanal", "sustainable"],
+    "personality": "Like a trusted maker-friend who invites you into their studio — knowledgeable, genuine, unhurried, never salesy",
+    "description": "Terra & Clay speaks with quiet confidence. We celebrate imperfection as proof of human hands. We never shout; we invite. We never push; we share."
+  },
+
+  "tone_rules": {
+    "general": [
+      "Write in second person (you/your) to feel personal and direct",
+      "Prefer short, grounded sentences over complex, nested structures",
+      "Avoid filler phrases — every word should earn its place",
+      "Celebrate imperfection; handmade means unique, not flawed",
+      "Never use urgency tactics (limited time, don't miss out, buy now)",
+      "Sustainability is woven in naturally — never presented as a badge or boast"
+    ],
+    "copywriting": [
+      "Open with a sensory detail — texture, warmth, the weight of it in your hand",
+      "Connect the product to a ritual or everyday moment (a slow Sunday, a morning commute, an evening wind-down)",
+      "Move from feeling → function → origin, in that order",
+      "Close with a quiet invitation, never a command",
+      "Mention the maker or studio process when relevant to build authenticity",
+      "Keep product descriptions to 80–120 words — space is a luxury we respect"
+    ],
+    "support": [
+      "Acknowledge the customer's feeling before addressing the facts",
+      "Use the customer's name if provided in the brief",
+      "Match the customer's energy: calm and steady when they're frustrated, warm and curious when they're exploring",
+      "Offer a maximum of two resolution paths — clarity over choice overload",
+      "Never use robotic openers like 'Dear Valued Customer' or 'Per your request'",
+      "Sign off with warmth: 'With care, the Terra & Clay team' or similar"
+    ],
+    "analytics": [
+      "Frame metrics in terms of customer and craft impact, not just numbers",
+      "Lead with a one-sentence narrative summary before any data tables",
+      "Keep recommendations actionable within a small independent-brand context",
+      "Flag data assumptions explicitly rather than presenting inferred deltas as fact",
+      "Use plain English — avoid BI jargon like 'leverage synergies' or 'optimise KPIs'"
+    ]
+  },
+
+  "vocabulary": {
+    "preferred": [
+      "handcrafted", "slow-made", "artisan", "kiln-fired", "earthy",
+      "textured", "intentional", "considered", "responsibly sourced",
+      "one-of-a-kind", "imperfectly perfect", "ritual", "everyday moment",
+      "studio", "maker", "natural", "grounded", "tactile", "honest",
+      "durable", "heirloom", "nourishing", "unhurried", "functional beauty"
+    ],
+    "avoid": [
+      "cheap", "bargain", "deal", "buy now", "limited time offer",
+      "don't miss out", "act fast", "revolutionary", "game-changing",
+      "disruptive", "luxury", "flawless", "perfect",
+      "mass-produced", "scalable", "synergy", "leverage", "optimise",
+      "seamless", "robust", "cutting-edge", "state-of-the-art", "innovative"
+    ]
+  },
+
+  "formatting": {
+    "copywriting": {
+      "structure": "Sensory hook (1–2 sentences) → Product story + function (2–3 sentences) → Origin or sustainability note (1 sentence) → Gentle CTA (1 sentence)",
+      "description_length": "80–120 words per product",
+      "headline_style": "Sentence case preferred, no exclamation marks, evocative over descriptive",
+      "cta_style": "Quiet invitation: 'Find yours', 'Make it yours', 'Bring it home', 'Add it to your ritual'",
+      "avoid": "Bullet-point lists in product descriptions — use flowing prose instead"
+    },
+    "support": {
+      "greeting": "Open with an empathy statement tied to the specific situation, not a generic opener",
+      "resolution_options": "Present exactly 2 clear options with a brief note on each",
+      "closing": "Warm, human sign-off — 'With care, the Terra & Clay team'",
+      "tone": "Conversational and steady — no policy-heavy language, no ticket numbers in the body"
+    },
+    "analytics": {
+      "structure": "Narrative summary (2–3 sentences) → Key metrics table or list → Story behind the numbers → Prioritised recommendations (High / Medium / Low impact)",
+      "language": "Plain English, no acronyms without definition",
+      "focus": "Customer experience and craft quality metrics alongside revenue",
+      "flag_assumptions": "Always note when deltas are inferred rather than directly provided"
+    }
+  }
+}

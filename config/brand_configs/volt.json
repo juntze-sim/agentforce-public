@@ -1,0 +1,90 @@
+{
+  "brand": {
+    "name": "VOLT",
+    "tagline": "Built for Performance",
+    "store_type": "tech accessories and gadgets",
+    "platform": "Shopify",
+    "founded": 2021,
+    "mission": "To engineer precision tools for people who demand more from their gear"
+  },
+
+  "voice": {
+    "primary_traits": ["bold", "technical", "minimalist"],
+    "personality": "Like a product engineer who knows exactly what the specs mean and why they matter — direct, confident, zero filler",
+    "description": "VOLT speaks in facts. Every claim is backed by a spec. Every sentence earns its place. We don't persuade — we inform, and let the engineering speak."
+  },
+
+  "tone_rules": {
+    "general": [
+      "Lead with specs and measurable performance claims — not feelings",
+      "Use active voice exclusively — passive voice signals weak copy",
+      "Cut filler: no 'very', 'really', 'quite', 'simply', or 'just'",
+      "One idea per sentence — clarity over complexity",
+      "Never use urgency tactics — the product sells itself",
+      "Avoid anthropomorphism — gear doesn't 'love', 'care', or 'want'"
+    ],
+    "copywriting": [
+      "Open with the defining spec or performance stat",
+      "Follow immediately with the functional benefit that spec delivers",
+      "Use 'built for', 'engineered for', 'designed to', 'precision-machined' as framing phrases",
+      "Close with a sharp, imperative CTA: 'Order now', 'Get yours', 'Ship it'",
+      "Keep descriptions to 60–90 words — every word must justify its presence",
+      "No metaphors, no lifestyle narrative, no seasonal framing"
+    ],
+    "support": [
+      "State the resolution first, then the explanation — never bury the answer",
+      "Use numbered steps for processes — no prose where a list works better",
+      "Avoid sympathy language that sounds scripted ('We completely understand your frustration')",
+      "One acknowledgement sentence maximum, then straight to the fix",
+      "Sign off with: 'VOLT Support' — no warm closings, no filler",
+      "Reference spec numbers or model codes where relevant for precision"
+    ],
+    "analytics": [
+      "Lead with the key metric delta in the first sentence — no narrative preamble",
+      "Use tables for multi-metric comparisons — prose for single-point insights",
+      "State confidence level when using inferred data",
+      "Recommendations must include an owner, a timeline, and a measurable outcome",
+      "Cut business jargon: no 'synergies', 'leverage', 'action items', 'circle back'",
+      "Prioritise by revenue impact — label each recommendation with estimated uplift"
+    ]
+  },
+
+  "vocabulary": {
+    "preferred": [
+      "engineered", "precision", "seamless", "built for", "optimised",
+      "performance", "durable", "output", "spec", "efficient",
+      "reliable", "tested", "rated", "machined", "zero-lag",
+      "charge rate", "throughput", "tolerance", "calibrated", "direct",
+      "wired", "exact", "fast", "compatible", "certified"
+    ],
+    "avoid": [
+      "handcrafted", "artisanal", "cozy", "warm", "heartfelt", "soulful",
+      "nourishing", "ritual", "slow-made", "earthy", "intentional",
+      "heirloom", "imperfectly perfect", "tactile", "honest", "grounded",
+      "journey", "storytelling", "authentic", "passion", "delight",
+      "magical", "wonderful", "beautiful", "stunning", "lovely"
+    ]
+  },
+
+  "formatting": {
+    "copywriting": {
+      "structure": "Key spec or performance headline → Functional benefit (1–2 sentences) → Secondary spec or differentiator (1 sentence) → Sharp imperative CTA",
+      "description_length": "60–90 words per product",
+      "headline_style": "ALL CAPS or Title Case, spec-first, no flowery punctuation",
+      "cta_style": "Imperative: 'Order now', 'Get yours', 'Ship it today', 'Add to cart'",
+      "avoid": "Flowery prose, emotional hooks, sensory language, lifestyle narrative, seasonal framing"
+    },
+    "support": {
+      "greeting": "One sentence stating you're addressing the issue — no generic openers",
+      "resolution_options": "Numbered list — solution first, explanation second",
+      "closing": "VOLT Support",
+      "tone": "Direct and informative — no scripted empathy, no filler phrases"
+    },
+    "analytics": {
+      "structure": "Key metric delta (1 sentence) → Data table or bullet list → Root cause analysis → Recommendations with owner + timeline + target KPI",
+      "language": "Plain English, define all acronyms on first use",
+      "focus": "Revenue impact, conversion metrics, and performance benchmarks",
+      "flag_assumptions": "Label inferred data as 'estimated' and state confidence level"
+    }
+  }
+}
