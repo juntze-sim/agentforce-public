@@ -90,8 +90,8 @@ agentforce/
 ### Install
 
 ```bash
-git clone https://github.com/<your-username>/agentforce.git
-cd agentforce
+git clone https://github.com/juntze-sim/agentforce-public.git
+cd agentforce-public
 pip install -r requirements.txt
 ```
 
