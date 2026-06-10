@@ -1,0 +1,14 @@
+.git
+.gitignore
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+outputs/
+Dockerfile
+.dockerignore
