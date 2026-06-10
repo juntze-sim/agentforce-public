@@ -1,0 +1,23 @@
+[
+  {
+    "timestamp": "2026-06-09T18:55:57.607970+00:00",
+    "from_agent": "user",
+    "to_agent": "manager",
+    "action": "decompose",
+    "details": "type=support | tasks=2 | The task involves resolving a customer's complaint about a missing product, which falls under support operations."
+  },
+  {
+    "timestamp": "2026-06-09T18:59:03.998665+00:00",
+    "from_agent": "support",
+    "to_agent": "manager",
+    "action": "deliver_output",
+    "details": "Generated 610 chars across 2 task(s) [branded] [orders_resolved=1]"
+  },
+  {
+    "timestamp": "2026-06-09T19:02:19.581297+00:00",
+    "from_agent": "manager",
+    "to_agent": "output",
+    "action": "review",
+    "details": "score=82 | status=sample_review | The response aligns well with Terra & Clay's warm, artisanal tone and avoids salesy language. However, the replacement process could be more"
+  }
+]
