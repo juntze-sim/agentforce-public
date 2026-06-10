@@ -109,6 +109,27 @@ Or launch the web portal:
 streamlit run portal/app.py
 ```
 
+### Run with Docker
+
+Make sure Ollama is reachable on all interfaces:
+
+```bash
+OLLAMA_HOST=0.0.0.0 ollama serve
+```
+
+Build and run:
+
+```bash
+docker build -t agentforce .
+docker run --rm agentforce
+```
+
+The container connects to Ollama on the host via `host.docker.internal:11434`. Override the model or URL with `-e`:
+
+```bash
+docker run --rm -e OLLAMA_MODEL=llama3 agentforce
+```
+
 ---
 
 ## How a request flows
@@ -126,7 +147,7 @@ A single agent step takes roughly 10–25 seconds on local hardware (Apple Silic
 
 ## Project status
 
-This is a **working prototype** that demonstrates the full pipeline end to end, tested on sample briefs. It runs entirely locally. Possible next steps include containerised deployment, a cloud backend for scale, and a document-ingestion / retrieval layer.
+This is a **working prototype** that demonstrates the full pipeline end to end, tested on sample briefs. It runs locally and in Docker. Possible next steps include a cloud backend for scale and a document-ingestion / retrieval layer.
 
 ---
 
