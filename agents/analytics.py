@@ -1,11 +1,12 @@
 from __future__ import annotations
+import os
 from datetime import datetime, timezone
 from langchain_ollama import ChatOllama
 from langchain_core.messages import SystemMessage, HumanMessage
 from schemas.state import WorkflowState, AuditEntry, format_feedback
 from config.loader import get_brand_context
 
-_llm = ChatOllama(model="qwen3:8b", reasoning=True, temperature=0.1)
+_llm = ChatOllama(model=os.getenv("OLLAMA_MODEL", "qwen3:8b"), base_url=os.getenv("OLLAMA_BASE_URL", "http://localhost:11434"), reasoning=True, temperature=0.1)
 
 _BASE_SYSTEM = """\
 You are a senior e-commerce data analyst embedded with a small independent brand. \

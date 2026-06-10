@@ -1,11 +1,12 @@
 from __future__ import annotations
+import os
 from datetime import datetime, timezone
 from langchain_ollama import ChatOllama
 from langchain_core.messages import SystemMessage, HumanMessage
 from schemas.state import WorkflowState, AuditEntry, format_metadata, format_feedback
 from config.loader import get_brand_context
 
-_llm = ChatOllama(model="qwen3:8b", reasoning=False, temperature=0.3)
+_llm = ChatOllama(model=os.getenv("OLLAMA_MODEL", "qwen3:8b"), base_url=os.getenv("OLLAMA_BASE_URL", "http://localhost:11434"), reasoning=False, temperature=0.3)
 
 _BASE_SYSTEM = """\
 You are a professional e-commerce copywriter. Your job is to create compelling, \

@@ -1,5 +1,6 @@
 from __future__ import annotations
 import json
+import os
 import re
 from datetime import datetime, timezone
 from langchain_ollama import ChatOllama
@@ -7,7 +8,7 @@ from langchain_core.messages import SystemMessage, HumanMessage
 from schemas.state import WorkflowState, AuditEntry
 from config.loader import get_brand_review_criteria
 
-_llm = ChatOllama(model="qwen3:8b", reasoning=True, temperature=0.1)
+_llm = ChatOllama(model=os.getenv("OLLAMA_MODEL", "qwen3:8b"), base_url=os.getenv("OLLAMA_BASE_URL", "http://localhost:11434"), reasoning=True, temperature=0.1)
 
 _DECOMPOSE_SYSTEM = """\
 You are an e-commerce operations manager. Analyze the task brief and respond with valid JSON only — no markdown, no explanation outside the JSON.

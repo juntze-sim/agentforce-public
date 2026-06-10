@@ -1,4 +1,5 @@
 from __future__ import annotations
+import os
 from datetime import datetime, timezone
 from langchain_ollama import ChatOllama
 from langchain_core.messages import SystemMessage, HumanMessage
@@ -6,7 +7,7 @@ from schemas.state import WorkflowState, AuditEntry, format_metadata, format_fee
 from config.loader import get_brand_context
 from tools.order_lookup import extract_order_ids, lookup_order, format_order_context
 
-_llm = ChatOllama(model="qwen3:8b", reasoning=False, temperature=0.2)
+_llm = ChatOllama(model=os.getenv("OLLAMA_MODEL", "qwen3:8b"), base_url=os.getenv("OLLAMA_BASE_URL", "http://localhost:11434"), reasoning=False, temperature=0.2)
 
 _BASE_SYSTEM = """\
 You are an expert e-commerce customer support specialist. You handle customer \
